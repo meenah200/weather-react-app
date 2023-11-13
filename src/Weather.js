@@ -4,7 +4,7 @@ import { ProgressBar } from "react-loader-spinner";
 
 import "./App.css";
 
-export default function Search() {
+export default function Weather() {
   let [city, setCity] = useState("");
   let [weather, setWeather] = useState({});
   let [loader, setLoader] = useState(false);
